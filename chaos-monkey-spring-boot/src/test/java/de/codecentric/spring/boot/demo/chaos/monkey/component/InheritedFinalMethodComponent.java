@@ -17,6 +17,7 @@ package de.codecentric.spring.boot.demo.chaos.monkey.component;
 
 import org.springframework.stereotype.Service;
 
+@Service
 public class InheritedFinalMethodComponent extends InheritedFinalMethodBase {
     public InheritedFinalMethodComponent(DemoComponent dependency) {
         super(dependency);
